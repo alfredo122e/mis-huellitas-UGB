@@ -1,0 +1,208 @@
+{% include "sitio/cabecera.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pet Shop Specials</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-white font-'Open Sans'">
+
+  <header class="flex flex-col sm:flex-row items-center sm:justify-between bg-blue-100 p-8">
+    <div class="text-center sm:text-left">
+        <h1 class="text-6xl font-bold text-gray-800 mb-2">Mis Huellitas UGB</h1>
+        <p class="text-gray-600 mb-4">Todo lo que necesitas para tus amigos peludos</p>
+        <button class="bg-orange-400 text-white px-6 py-2 rounded-full">Compra Ahora</button>
+    </div>
+    <div class="sm:ml-4 mt-4 sm:mt-0">
+        <img src="static/images/tienda.png" alt="Happy dog with an indestructible toy" class="max-w-xs md:max-w-sm lg:max-w-md xl:max-w-lg mx-auto sm:mx-0">
+    </div>
+</header>
+
+<section class="py-8 bg-gray-100">
+  <div class="px-8">
+      <!-- First Row with 3 columns -->
+      <div class="grid grid-cols-3 gap-4 mb-8">
+          <div class="bg-white p-4 rounded-lg shadow-md text-center">
+            <img src="static/tienda/des3.png" alt="Category Image Description" class="mb-2" style="width:300px; height:150px;">
+            <h3 class="text-lg font-semibold text-gray-800 mb-1">Category Name</h3>
+            <p class="text-gray-600 mb-2">Up to X% off</p>
+            <a href="https://wa.me/+50326456590" class="text-blue-600">Shop Now</a>
+        </div>
+          <div class="bg-white p-4 rounded-lg shadow-md text-center">
+              <img src="static/tienda/des3.png" alt="Category Image Description" class="mb-2" style="width:300px; height:150px;">
+              <h3 class="text-lg font-semibold text-gray-800 mb-1">Category Name</h3>
+              <p class="text-gray-600 mb-2">Up to X% off</p>
+              <a href="https://wa.me/+50326456590" class="text-blue-600">Shop Now</a>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-md text-center">
+              <img src="static/tienda/des2.png" alt="Category Image Description" class="mb-2" style="width:300px; height:150px;">
+              <h3 class="text-lg font-semibold text-gray-800 mb-1">Category Name</h3>
+              <p class="text-gray-600 mb-2">Up to X% off</p>
+              <a href="https://wa.me/+50326456590" class="text-blue-600">Shop Now</a>
+          </div>
+      </div>
+
+      <!-- Second Row with 2 columns, centered -->
+      <div class="flex justify-center">
+          <div class="grid grid-cols-2 gap-4 max-w-4xl mx-auto">
+              <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                  <img src="static/tienda/des3.png" alt="Category Image Description" class="mb-2" style="width:350px; height:175px;">
+                  <h3 class="text-lg font-semibold text-gray-800 mb-1">Category Name</h3>
+                  <p class="text-gray-600 mb-2">Up to X% off</p>
+                  <a href="https://wa.me/+50326456590" class="text-blue-600">Shop Now</a>
+              </div>
+              <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                  <img src="static/tienda/des3.png" alt="Category Image Description" class="mb-2" style="width:350px; height:175px;">
+                  <h3 class="text-lg font-semibold text-gray-800 mb-1">Category Name</h3>
+                  <p class="text-gray-600 mb-2">Up to X% off</p>
+                  <a href="https://wa.me/+50326456590" class="text-blue-600">Shop Now</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+ 
+  <section class="py-8">
+        <h2 class="text-xl font-bold text-gray-800 px-8 mb-4">Best Selling Products</h2>
+        <div class="flex flex-wrap justify-around">
+            <!-- Row 1  seccion de comida-->
+            <div class="flex flex-wrap justify-center w-full">
+                <!-- Product Card 1 -->
+                <div class="w-1/5 p-2">
+                    <div class="bg-white shadow-md hover:shadow-lg rounded-lg overflow-hidden transition-shadow duration-300 ease-in-out">
+                        <img src="static/tienda/pro1.jpg" alt="Complete and Balanced Dog Food Package" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-800 mb-1">Complete and Balanced Dog Food</h3>
+                            <p class="text-gray-600 text-sm mb-3">Contains all the nutrients your dog needs.</p>
+                            <span class="text-red-600 font-bold mb-3 block">Price</span>
+                            <a href="https://wa.me/+50326456590" class="inline-block bg-blue-600 text-white text-sm px-4 py-2 rounded">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 2 -->
+                <div class="w-1/5 p-2">
+                    <div class="bg-white shadow-md hover:shadow-lg rounded-lg overflow-hidden transition-shadow duration-300 ease-in-out">
+                        <img src="static/tienda/pro2.jpg" alt="Complete and Balanced Dog Food Package" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-800 mb-1">Complete and Balanced Dog Food</h3>
+                            <p class="text-gray-600 text-sm mb-3">Contains all the nutrients your dog needs.</p>
+                            <span class="text-red-600 font-bold mb-3 block">Price</span>
+                            <a href="https://wa.me/+50326456590" class="inline-block bg-blue-600 text-white text-sm px-4 py-2 rounded">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 3 -->
+                <div class="w-1/5 p-2">
+                    <div class="bg-white shadow-md hover:shadow-lg rounded-lg overflow-hidden transition-shadow duration-300 ease-in-out">
+                        <img src="static/tienda/pro3.png" alt="Complete and Balanced Dog Food Package" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-800 mb-1">Complete and Balanced Dog Food</h3>
+                            <p class="text-gray-600 text-sm mb-3">Contains all the nutrients your dog needs.</p>
+                            <span class="text-red-600 font-bold mb-3 block">Price</span>
+                            <a href="https://wa.me/+50326456590" class="inline-block bg-blue-600 text-white text-sm px-4 py-2 rounded">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 4 -->
+                <div class="w-1/5 p-2">
+                    <div class="bg-white shadow-md hover:shadow-lg rounded-lg overflow-hidden transition-shadow duration-300 ease-in-out">
+                        <img src="static/tienda/pro4.png" alt="Complete and Balanced Dog Food Package" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-800 mb-1">Complete and Balanced Dog Food</h3>
+                            <p class="text-gray-600 text-sm mb-3">Contains all the nutrients your dog needs.</p>
+                            <span class="text-red-600 font-bold mb-3 block">Price</span>
+                            <a href="https://wa.me/+50326456590" class="inline-block bg-blue-600 text-white text-sm px-4 py-2 rounded">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 5 -->
+                <div class="w-1/5 p-2">
+                    <div class="bg-white shadow-md hover:shadow-lg rounded-lg overflow-hidden transition-shadow duration-300 ease-in-out">
+                        <img src="static/tienda/pro5.png" alt="Complete and Balanced Dog Food Package" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-800 mb-1">Complete and Balanced Dog Food</h3>
+                            <p class="text-gray-600 text-sm mb-3">Contains all the nutrients your dog needs.</p>
+                            <span class="text-red-600 font-bold mb-3 block">Price</span>
+                            <a href="https://wa.me/+50326456590" class="inline-block bg-blue-600 text-white text-sm px-4 py-2 rounded">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- fila 2 accessorios -->
+            <div class="flex flex-wrap justify-center w-full">
+                              <!-- Product Card 1 -->
+                              <div class="w-1/5 p-2">
+                                <div class="product-card bg-white shadow-md rounded-lg overflow-hidden transition-shadow duration-300 ease-in-out">
+                                  <img src="static/tienda/acce1.png" alt="Complete and Balanced Dog Food Package" class="w-full h-48 object-cover">
+                                  <div class="p-4">
+                                    <h3 class="text-lg font-semibold text-gray-800 mb-1">Complete and Balanced Dog Food</h3>
+                                    <p class="text-gray-600 text-sm mb-3">Contains all the nutrients your dog needs.</p>
+                                    <span class="text-red-600 font-bold mb-3 block">Price</span>
+                                    <a href="https://wa.me/1234567890" class="inline-block bg-blue-600 text-white text-sm px-4 py-2 rounded">Shop Now</a>
+                                  </div>
+                                </div>
+                              </div>
+                            <!-- Product Card 2 -->
+                            <div class="w-1/5 p-2">
+                                <div class="bg-white shadow-md hover:shadow-lg rounded-lg overflow-hidden transition-shadow duration-300 ease-in-out">
+                                    <img src="static/tienda/acce2.png" alt="Complete and Balanced Dog Food Package" class="w-full h-48 object-cover">
+                                    <div class="p-4">
+                                        <h3 class="text-lg font-semibold text-gray-800 mb-1">Complete and Balanced Dog Food</h3>
+                                        <p class="text-gray-600 text-sm mb-3">Contains all the nutrients your dog needs.</p>
+                                        <span class="text-red-600 font-bold mb-3 block">Price</span>
+                                        <a href="https://wa.me/+50326456590" class="inline-block bg-blue-600 text-white text-sm px-4 py-2 rounded">Shop Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product Card 3 -->
+                            <div class="w-1/5 p-2">
+                                <div class="bg-white shadow-md hover:shadow-lg rounded-lg overflow-hidden transition-shadow duration-300 ease-in-out">
+                                    <img src="static/tienda/acce3.png" alt="Complete and Balanced Dog Food Package" class="w-full h-48 object-cover">
+                                    <div class="p-4">
+                                        <h3 class="text-lg font-semibold text-gray-800 mb-1">Complete and Balanced Dog Food</h3>
+                                        <p class="text-gray-600 text-sm mb-3">Contains all the nutrients your dog needs.</p>
+                                        <span class="text-red-600 font-bold mb-3 block">Price</span>
+                                        <a href="https://wa.me/+50326456590" class="inline-block bg-blue-600 text-white text-sm px-4 py-2 rounded">Shop Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product Card 4 -->
+                            <div class="w-1/5 p-2">
+                                <div class="bg-white shadow-md hover:shadow-lg rounded-lg overflow-hidden transition-shadow duration-300 ease-in-out">
+                                    <img src="static/tienda/acce34.png" alt="Complete and Balanced Dog Food Package" class="w-full h-48 object-cover">
+                                    <div class="p-4">
+                                        <h3 class="text-lg font-semibold text-gray-800 mb-1">Complete and Balanced Dog Food</h3>
+                                        <p class="text-gray-600 text-sm mb-3">Contains all the nutrients your dog needs.</p>
+                                        <span class="text-red-600 font-bold mb-3 block">Price</span>
+                                        <a href="https://wa.me/+50326456590" class="inline-block bg-blue-600 text-white text-sm px-4 py-2 rounded">Shop Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product Card 5 -->
+                            <div class="w-1/5 p-2">
+                                <div class="bg-white shadow-md hover:shadow-lg rounded-lg overflow-hidden transition-shadow duration-300 ease-in-out">
+                                    <img src="static/tienda/acce5.png" alt="Complete and Balanced Dog Food Package" class="w-full h-48 object-cover">
+                                    <div class="p-4">
+                                        <h3 class="text-lg font-semibold text-gray-800 mb-1">Complete and Balanced Dog Food</h3>
+                                        <p class="text-gray-600 text-sm mb-3">Contains all the nutrients your dog needs.</p>
+                                        <span class="text-red-600 font-bold mb-3 block">Price</span>
+                                        <a href="https://wa.me/+50326456590" class="inline-block bg-blue-600 text-white text-sm px-4 py-2 rounded">Shop Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </section>
+      <footer class="bg-light text-center text-lg-start">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2024 Huellitas - Refugio de Animales
+        </div>
+      </footer>
+
+</body>
+</html>
+{% include "sitio/pie.html" %}

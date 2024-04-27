@@ -1,0 +1,24 @@
+{% include "sitio/cabecera.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pet Shop Specials</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-white font-'Open Sans'">
+
+  <header class="flex flex-col sm:flex-row items-center sm:justify-between bg-blue-100 p-8">
+    <div class="text-center sm:text-left">
+        <h1 class="text-6xl font-bold text-gray-800 mb-2">Mis Huellitas UGB</h1>
+        <p class="text-gray-600 mb-4">Todo lo que necesitas para tus amigos peludos</p>
+        <button class="bg-orange-400 text-white px-6 py-2 rounded-full">Compra Ahora</button>
+    </div>
+    <div class="sm:ml-4 mt-4 sm:mt-0">
+        <img src="static/images/tienda.png" alt="Happy dog with an indestructible toy" class="max-w-xs md:max-w-sm lg:max-w-md xl:max-w-lg mx-auto sm:mx-0">
+    </div>
+</header>
+
+{% include "sitio/pie.html" %}

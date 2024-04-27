@@ -1,0 +1,62 @@
+{% include "sitio/cabecera.html" %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vía Salvaje</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<style>
+    .bg-background-image {
+        background-image: url('static/images/fonodf.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    .text-shadow {
+        text-shadow: 2px 2px 8px #000;
+    }
+    .nav-button {
+        transition: transform 0.3s ease;
+    }
+    .nav-button:hover {
+        transform: translateY(-2px);
+    }
+    @media (max-width: 640px) {
+        .text-6xl {
+            font-size: 3rem; /* Adjust font size on smaller screens */
+        }
+        .nav-button {
+            padding: 3px 12px; /* Adjust padding on smaller screens */
+        }
+    }
+</style>
+</head>
+<body class="bg-red-600 bg-background-image">
+<div class="container mx-auto px-4">
+    <header class="flex justify-between items-center py-4">
+        <div class="text-white">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="flex gap-4">
+            <a href="#" class="text-white uppercase text-xs text-shadow"></a>
+            <!-- ... -->
+        </div>
+        <div class="text-white">
+            <i class="fas fa-search"></i>
+        </div>
+    </header>
+
+    <main>
+        <section class="text-center text-white my-12">
+            <h1 class="text-6xl font-bold mb-4 text-shadow">Vida Callejera</h1>
+            <p class="mb-6 text-shadow">En las calles de la ciudad palpita la vida con una intensidad inigualable; cada esquina cuenta una historia diferente y cada paso revela un nuevo rostro de la metrópoli. Aquí, donde los caminos se entrecruzan, las vidas de ciudadanos y visitantes se unen en una danza de posibilidades. Nuestra misión es capturar la esencia de este dinamismo urbano y brindar ayuda a quienes más lo necesitan. Únete a nosotros en esta aventura callejera, donde cada contribución es un paso hacia un mañana más esperanzador.
+                .</p>
+        </section>
+
+      
+    </main>
+</div>
+</body>
+</html>
+{% include "sitio/pie.html" %}
